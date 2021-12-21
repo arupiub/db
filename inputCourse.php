@@ -2,7 +2,7 @@
 <html lang="en">
   <head>    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <title>Semester Input Form</title>
+    <title>Course Input Form</title>
   </head>
 
   <body>
@@ -15,8 +15,8 @@
           <input type="courseID" class="form-control" id="courseID" name="courseID" placeholder="Course ID">
         </div>
         <div class="mb-3">
-          <label for="credits" class="form-label">Credit Hours</label>
-          <input type="credits" class="form-control" id="credits" name="credits" placeholder="Credit Hours">
+          <label for="credit" class="form-label">Credit Hours</label>
+          <input type="credit" class="form-control" id="credit" name="credit" placeholder="Credit Hours">
         </div>
         <div class="mb-3">
           <label for="courseName" class="form-label">Course Name</label>

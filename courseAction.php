@@ -1,6 +1,6 @@
 <?php	
 	$courseID = $_POST['courseID'];
-	$credits = $_POST['credits'];
+	$credit = $_POST['credit'];
 	$courseName = $_POST['courseName'];
 	$semID = $_POST['semID'];
 
@@ -10,8 +10,8 @@
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
 	} else {
-		$sql = "INSERT INTO course (courseID, credits, courseName, semID)
-		VALUES ('$courseID', '$credits', '$courseName', '$semID')";
+		$sql = "INSERT INTO course (courseID, credit, courseName, semID)
+		VALUES ('$courseID', '$credit', '$courseName', '$semID')";
 		if ($conn->query($sql) === TRUE) {
 		  echo "New record created successfully";
 		} else {

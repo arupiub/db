@@ -31,6 +31,30 @@
           <input type="submit" value="Section Input">
         </form>
     </div>
-    
+    <div class="container-fluid">
+        <form action="inputCourse.php">
+          <input type="submit" value="Course Input">
+        </form>
+    </div>
+    <div class="container-fluid">
+        <form action="inputFaculty.php">
+          <input type="submit" value="Faculty Input">
+        </form>
+    </div>
+    <div class="container-fluid">
+        <form action="inputSchool.php">
+          <input type="submit" value="School Input">
+        </form>
+    </div>
+    <div class="container-fluid">
+        <form action="inputDepartment.php">
+          <input type="submit" value="Department Input">
+        </form>
+    </div>
+    <div class="container-fluid">
+        <form action="inputClassroom.php">
+          <input type="submit" value="Classroom Input">
+        </form>
+    </div>
   </body>
 </html>

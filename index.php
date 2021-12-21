@@ -23,7 +23,7 @@
     </div> 
     <div class="container-fluid">
         <form action="test.php">
-          <input type="submit" value="Input Form">
+          <input type="submit" value="Output Form">
         </form>
     </div>    
   </body>

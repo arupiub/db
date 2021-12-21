@@ -1,9 +1,7 @@
-<?php
-	$secID = $_POST['secID'];
-	$secNo = $_POST['secNo'];
-	$secCapacity = $_POST['secCapacity'];
-	$enrolled = $_POST['enrolled'];
-	$courseID = $_POST['courseID'];
+<?php	
+	$facultyID = $_POST['facultyID'];
+	$facultyName = $_POST['facultyName'];
+	$deptID = $_POST['deptID'];
 
 	// Database connection
 	$conn = new mysqli('localhost','root','','db');
@@ -11,8 +9,8 @@
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
 	} else {
-		$sql = "INSERT INTO section (secID, secNo, secCapacity, enrolled, courseID)
-		VALUES ('$secID', '$secNo', '$secCapacity', '$enrolled', '$courseID')";
+		$sql = "INSERT INTO faculty (facultyID, facultyName, deptID)
+		VALUES ('$facultyID', '$facultyName', '$deptID')";
 		if ($conn->query($sql) === TRUE) {
 		  echo "New record created successfully";
 		} else {
