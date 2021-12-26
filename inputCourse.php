@@ -23,8 +23,8 @@
           <input type="courseName" class="form-control" id="courseName" name="courseName" placeholder="Course Name">
         </div>
         <div class="mb-3">
-          <label for="semID" class="form-label">Semester ID</label>
-          <input type="semID" class="form-control" id="semID" name="semID" placeholder="Semester ID">
+          <label for="schoolID" class="form-label">School ID</label>
+          <input type="schoolID" class="form-control" id="schoolID" name="schoolID" placeholder="School ID">
         </div>
         <br><br>
         <input type="submit" value="Submit"><br><hr>

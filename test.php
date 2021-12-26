@@ -9,8 +9,7 @@ echo "<b> <center>Database Output</center> </b> <br> <br>";
 
 $result = $mysqli->query($query);
 
-/*freeresultset*/
-#$result->free();
+
 
 ?>
 
@@ -36,6 +35,7 @@ $result = $mysqli->query($query);
 			    echo "['".$field1name."',".$field2name."],";
 			    
 			}
+			$result->free();
 			?>
         ]);
 
